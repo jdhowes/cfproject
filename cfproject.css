@@ -1,0 +1,58 @@
+/* CSS declarations go here */
+body
+{
+	background-color:#72aaa8;
+	position: center;
+	padding: 1.5%;
+	font: Helvetica;
+}
+h1
+{
+	background-color:#DEDEDE;
+	font: 40px Helvetica;
+	text-align: center;
+}
+p
+{
+	background-color:#DEDEDE;
+	font: 18px Helvetica;
+	text-align: center;
+} 
+
+#gameArea 
+{
+	width: 700px;
+	height: 600px;    
+	border: 2px solid;
+	border-radius: 15px;
+	background-color: none;
+}
+
+#gameBoard
+{
+	background-image:url('board.png');
+ 	width: 703px;
+	height: 607px;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+}
+
+th, td 
+{
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+#button
+{
+	background-color: #5b9c99;
+	font: 20px Helvetica;
+	color: black;
+	width:95px;
+	border: solid;
+	border-color:#c0e7d9;
+}

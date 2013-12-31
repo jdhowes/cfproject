@@ -1,0 +1,91 @@
+<head>
+  <title>Final Year Project</title>
+</head>
+
+<body>
+  {{> hello}}
+
+<center>
+
+<!-- 
+<canvas id="gameArea">
+</canvas> 
+-->
+
+<table id="gameBoard">
+
+    <tr>
+        <td></td>
+        <td><img src=red.png height="85" width="85"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><img src=yellow.png height="85" width="85"></td>
+    </tr>
+    <tr>
+        <td><img src=yellow.png height="85" width="85"></td>
+        <td><img src=yellow.png height="85" width="85"></td>
+        <td></td>
+        <td></td>
+        <td><img src=red.png height="85" width="85"></td>
+        <td></td>
+        <td><img src=yellow.png height="85" width="85"></td>
+    </tr>
+    <tr>
+        <td><img src=yellow.png height="85" width="85"></td>
+        <td><img src=red.png height="85" width="85"></td>
+        <td></td>
+        <td></td>
+        <td><img src=yellow.png height="85" width="85"></td>
+        <td><img src=yellow.png height="85" width="85"></td>
+        <td><img src=red.png height="85" width="85"></td>
+    </tr>
+    <tr>
+        <td><img src=red.png height="85" width="85"></td>
+        <td><img src=red.png height="85" width="85"></td>
+        <td><img src=yellow.png height="85" width="85"></td>
+        <td></td>
+        <td><img src=red.png height="85" width="85"></td>
+        <td><img src=red.png height="85" width="85"></td>
+        <td><img src=yellow.png height="85" width="85"></td>
+    </tr>
+    <tr>
+        <td><img src=red.png height="85" width="85"></td>
+        <td><img src=yellow.png height="85" width="85"></td>
+        <td><img src=yellow.png height="85" width="85"></td>
+        <td><img src=red.png height="85" width="85"></td>
+        <td><img src=yellow.png height="85" width="85"></td>
+        <td><img src=red.png height="85" width="85"></td>
+        <td><img src=red.png height="85" width="85"></td>
+    </tr>
+    <tr>
+        <td><img src=yellow.png height="85" width="85"></td>
+        <td><img src=yellow.png height="85" width="85"></td>
+        <td><img src=red.png height="85" width="85"></td>
+        <td><img src=yellow.png height="85" width="85"></td>
+        <td><img src=yellow.png height="85" width="85"></td>
+        <td><img src=red.png height="85" width="85"></td>
+        <td><img src=red.png height="85" width="85"></td>
+    </tr>
+
+</table>
+<br>
+<button id="button">Place <br> Counter</button>
+<button id="button">Place <br> Counter</button>
+<button id="button">Place <br> Counter</button>
+<button id="button">Place <br> Counter</button>
+<button id="button">Place <br> Counter</button>
+<button id="button">Place <br> Counter</button>
+<button id="button">Place <br> Counter</button>
+
+</center>
+
+</body>
+
+<template name="hello">
+  <h1>Connect Four</h1>
+  {{greeting}}
+  <input type="button" value="Place Counter"/>
+</template>
+
